@@ -1,11 +1,12 @@
 # PS_Scripts
 
-# These scripts were written to help me perform my daily job tasks as a Information Systsems Specialist with a primary function of account provisioning. 
-# I use them on a daily basis to make life easier and because powershell is awesome. 
-# They are not complex by any means, but I hope they can be of use to those of us who spend our lives buried in Microsofts's proprietary software to supoort our end users. 
+#Why
+These scripts were written to help me perform my daily job tasks as a Information Systsems Specialist with a primary function of account provisioning. 
+I use them on a daily basis to make life easier and because powershell is awesome. 
+They are not complex by any means, but I hope they can be of use to those of us who spend our lives buried in Microsofts's proprietary software to supoort our end users. 
 
 
-## User_SG_Upload_CSV_CommonName
+# User_SG_Upload_CSV_CommonName
 #This script allows you to upload a user into a Security Group from a CSV file utilizing the users CN aka Common Name aka First and Last Name 
 
   # How to Find CN (Common Name)
@@ -14,7 +15,7 @@
   If in ADAC, simply navigate to the desired user, right click on the users name, click poperties, scroll down to the bottom of the dialogue box, click on "Attribute Edditor" and scroll down to "CN".
 
 
-## User_SG_Upload_CSV_Username
+# User_SG_Upload_CSV_Username
 #This script allows you to upload a user into a Security Group from a CSV file utilizing the users username aka User Logon Name (Pre-Windows 2000) aka sAMAccountName
   
   # How to Find username
