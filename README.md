@@ -3,7 +3,7 @@
 # Why
   * These scripts were written to help me perform my daily job tasks as a Information Systsems Specialist with a primary function of account provisioning. 
   * I use them on a daily basis to make life easier and because powershell is awesome. 
-  * They are not complex by any means, but I hope they can be of use to those of us who spend our lives buried in Microsofts's proprietary software to supoort our end users. 
+  * They are not complex by any means, but I hope they can be of use to those of us who spend our lives buried in Microsofts's proprietary software to suport our end users. 
 
 
 # User_SG_Upload_CSV_CommonName
