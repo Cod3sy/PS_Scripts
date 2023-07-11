@@ -7,7 +7,7 @@
 
 
 # User_SG_Upload_CSV_CommonName
-* This script allows you to upload multiple users into a Security Group from a CSV file utilizing the users CN aka Common Name aka First and Last Name 
+* This script allows you to upload multiple users into a Security Group from a CSV file utilizing the users First and Last Name (CN, Common Name)
   
   # How to Find CN (Common Name)
   * This can be located in the users Attribute Edditor tab under the user's properties in AD (Active Directory) or ADAC (Active Directory Administrative Center).
@@ -16,10 +16,12 @@
 
 
 # User_SG_Upload_CSV_Username
-* This script allows you to upload multiple users into a Security Group from a CSV file utilizing the users username aka User Logon Name (Pre-Windows 2000) aka sAMAccountName
+* This script allows you to upload multiple users into a Security Group from a CSV file utilizing the users username (User Logon Name (Pre-Windows 2000), sAMAccountName)
   
   # How to Find username
   * This can be located in the users Account tab under the user's properties in AD (Active Directory) or ADAC (Active Directory Administrative Center).
   * If in AD, navigate to the desired user, right click on the users name, click poperties, click on the account tab. 
   * If in ADAC, navigate to the desired user, right click on the users name and click poperties.
-   
+ 
+ # SG_Export_CSV_Name_Name_Username_Email
+ * This script will pull a user's username (User Logon Name (Pre-Windows 2000), sAMAccountName), email (User Logon Name), First and Last Name (CN, Common Name) and export this information into a CSV with the specification of the target security group.
