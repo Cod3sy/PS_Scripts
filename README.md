@@ -5,6 +5,8 @@
   * I use them on a daily basis to make life easier and because PowerShell is awesome. 
   * They are not complex by any means, but I hope they can be of use to those of us who spend our lives buried in Microsoft’s proprietary software to support our end users. 
 
+# AD_User_Automation_v1.ps1
+* This script creates a user account in Active Directory with the specified user attributes and permissions when the required CSV files are given. This is a verison 1 and our hope is to expand this script into an interactive application with a UI option. 
 
 # User_SG_Upload_CSV_CommonName
 * This script allows you to upload multiple users into a Security Group from a CSV file utilizing the users First and Last Name (CN, Common Name)
